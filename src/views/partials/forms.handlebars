@@ -1,0 +1,32 @@
+
+<section class="user-section">
+    <label for="username">Nombre del usuario</label>
+    <input
+        type="text"
+        id="username"
+        maxlength="30"
+        placeholder="Escribe tu nombre"
+        autocomplete="name"
+        required
+    >
+</section>
+
+<form id="chat-form" class="message-form">
+    <label for="message">Tu mensaje</label>
+
+    <div class="message-input-row">
+        <input
+            type="text"
+            id="message"
+            maxlength="1000"
+            placeholder="Escribe un mensaje..."
+            autocomplete="off"
+            required
+        >
+        <button type="submit">Enviar ➤</button>
+    </div>
+
+    <p class="form-note">
+        Tus mensajes serán visibles para todos los usuarios conectados.
+    </p>
+</form>
